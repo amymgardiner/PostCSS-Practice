@@ -1,6 +1,1 @@
-article {
-    background: red;
-}
-article .title {
-        font-size: 5rem;
-    }
+@media (min-width:70em){body{background:green}}article{background:red}article .title{font-size:5rem}nav{padding:1rem}nav ul{margin:0;padding:0}@media (min-width:70em){nav{padding:2rem}}

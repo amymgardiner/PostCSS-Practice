@@ -1,6 +1,28 @@
+@custom-media --viewport-large (min-width: 70em);
+
+@media (--viewport-large) {
+    body {
+        background: green;
+    }
+}
+
 article {
     background: red;
+
     & .title {
         font-size: 5rem;
+    }
+}
+
+nav {
+    padding: 1rem;
+
+    & ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (--viewport-large) {
+        padding: 2rem;
     }
 }
