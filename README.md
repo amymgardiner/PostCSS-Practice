@@ -18,4 +18,8 @@ File Organization
 - One main CSS stylsheet with several other smaller CSS files - One single file for production, but can break it down while working on it and make it easier to find styles and maintain the code.
 - Similar to Sass functionality.
 - Kevin has another video about organization: [Get your stylesheets more organized with Sass partials](https://www.youtube.com/watch?v=9Ld-aOKsEDk)
-- 
+
+Import
+- Different from the [CSS Import Rule](https://www.w3schools.com/cssref/pr_import_rule.php), which is not recommended to use as it slows things down.
+- PostCSS Import takes all of the seperate stylesheets and combines them all into one, and outputs a single file that would go into a distribution, public, etc. folder (the final production folder).
+- The production folder goes onto the server, but the seperate stylsheets are the dev environment which is a bit different.
