@@ -15,6 +15,7 @@ Post CSS
 - Once you know how to set it up, it's really easy to just plug and play all these different things that you might need on any individual project.
 
 File Organization
-- One main CSS stylsheet with several other smaller CSS files
-- Similar to Sass functionality
+- One main CSS stylsheet with several other smaller CSS files - One single file for production, but can break it down while working on it and make it easier to find styles and maintain the code.
+- Similar to Sass functionality.
 - Kevin has another video about organization: [Get your stylesheets more organized with Sass partials](https://www.youtube.com/watch?v=9Ld-aOKsEDk)
+- 
