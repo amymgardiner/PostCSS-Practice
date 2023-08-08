@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss:watch": "postcss src/style.css --dir public"
+    "postcss:watch": "postcss src/style.css --dir public --watch"
   },
   "author": "",
   "license": "ISC",
