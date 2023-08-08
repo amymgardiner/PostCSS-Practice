@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postcss:watch": "postcss src/style.css --dir public"
   },
   "author": "",
   "license": "ISC",
