@@ -1,4 +1,6 @@
-body {
+article {
     background: red;
-    font-size: 1.125rem;
+    & .title {
+        font-size: 5rem;
+    }
 }

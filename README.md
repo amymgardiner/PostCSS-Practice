@@ -20,8 +20,18 @@ File Organization
 - Similar to Sass functionality.
 - Kevin has another video about organization: [Get your stylesheets more organized with Sass partials](https://www.youtube.com/watch?v=9Ld-aOKsEDk)
 
-Import
+Import Plugin
 - Different from the [CSS Import Rule](https://www.w3schools.com/cssref/pr_import_rule.php), which is not recommended to use as it slows things down.
 - PostCSS Import takes all of the seperate stylesheets and combines them all into one, and outputs a single file that would go into a distribution, public, etc. folder (the final production folder).
 - The production folder goes onto the server, but the seperate stylsheets are the dev environment which is a bit different.
 - The next step after postcss.config.js and style.css, would be to go into the package.json file to add a new script to tell PostCSS what to do, where to go, and what to output. This is how we get it to import everything together.
+
+Other Plugins We used
+- postcss-preset-env = Convert modern CSS into something browsers understand
+    - You can add a stage modifier to it and read more about that here: [Staging Process](https://cssdb.org/#the-staging-process)
+        - Stage 0: Aspirational
+        - Stage 1: Experimental
+        - Stage 2: Allowable
+        - Stage 3: Embraced
+        - Stage 4: Standardized
+- cssnano = A modular minifier, built on top of the PostCSS ecosystem
